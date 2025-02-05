@@ -218,7 +218,6 @@ def train_final_model(filtered_df, output_clf_path="alv_emb_clf3.pkl"):
         #     print(f"    {name}")
 
 
-# MAIN
 
 if __name__ == "__main__":
     # Example usage (adjust paths as needed):
