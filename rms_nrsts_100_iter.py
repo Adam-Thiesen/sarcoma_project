@@ -288,7 +288,7 @@ def run_crossval_and_plot_roc(filtered_df,
         fig, ax = plt.subplots(figsize=(6, 5))
         disp = ConfusionMatrixDisplay(
             confusion_matrix=percentage_cm,
-            display_labels=["NRSTS", "RMS"]
+            display_labels=["RMS", "NRSTS"]
         )
         disp.plot(cmap="Blues", ax=ax, values_format=".2f")
 
